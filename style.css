@@ -26,7 +26,7 @@ body {
   height: 54px;
   color: white;
   text-decoration: none;
-  margin-left: 146px;
+  margin-left: 110px;
   margin-right: 146px;
   margin-top: 32px;
   display: flex;
@@ -61,66 +61,82 @@ body {
 
 .quote {
   background-color: #ff4d01 !important;
-  width: 129px;
-  height: 54px;
+  width: 130px;
+  height: 60px;
   color: white;
   background: none;
   border: none;
   padding: 10px;
   cursor: pointer;
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   font-size: 18px;
   font-weight: 400;
   border-radius: 10px;
 }
 
 .quoteTwo {
-    border: 1px solid rgb(255, 255, 255);
-    width: 180px;
-    height: 75px;
-    color: white;
-    background: none;
-    border-radius: 10px;
-    padding: 10px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 23px;
-    font-weight: 400;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    margin-left: 60px;
-    margin-top: 55px;
-    transition: background-color 0.5s, border-color 0.5s;
-  }
-  
-  .quoteTwo:hover {
-    background-color: #ff4d01; /* Оранжевый цвет при наведении */
-    color: white;
-    border: 2px solid #ff4d01;
-  }
-  
-  .services {
-    border: 1px solid rgb(255, 255, 255);
-    width: 180px;
-    height: 75px;
-    border-radius: 10px;
-    color: #ffffff;
-    background: none;
-    padding: 10px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 23px;
-    font-weight: 400;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    margin-left: 28px;
-    transition: background-color 0.5s, border-color 0.5s;
-  }
-  
-  .services:hover {
-    background-color: #ff4d01; /* Оранжевый цвет при наведении */
-    color: white;
-    border: 2px solid #ff4d01;
-  }
-  
+  border: 1px solid rgb(255, 255, 255);
+  width: 180px;
+  height: 75px;
+  color: white;
+  background: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  margin-left: 60px;
+  transition: background-color 0.5s, border-color 0.5s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: wrap;
+}
+
+.specBut {
+  white-space: nowrap;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteTwo:hover {
+  background-color: #ff4d01;
+  color: white;
+  border: 2px solid #ff4d01;
+}
+
+.services {
+  border: 1px solid rgb(255, 255, 255);
+  width: 180px;
+  height: 75px;
+  border-radius: 10px;
+  color: #ffffff;
+  background: none;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  margin-left: 28px;
+  transition: background-color 0.5s, border-color 0.5s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: wrap;
+}
+
+.services:hover {
+  background-color: #ff4d01;
+  color: white;
+  border: 2px solid #ff4d01;
+}
+
 .announceContainer {
   position: absolute;
   width: 1px;
@@ -133,6 +149,7 @@ body {
 }
 
 .announceH1 {
+  padding-bottom: 50px;
   width: 660px;
   height: 169px;
   color: white;
@@ -151,4 +168,5 @@ body {
   margin-top: -20px;
   margin-right: -90px;
   margin-bottom: -20px;
+  padding-bottom: 50px;
 }
